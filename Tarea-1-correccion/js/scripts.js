@@ -86,6 +86,7 @@ function shapes(){
     function figuresCollision() {
         let distX = xPositionC - xPosition;
         let distY = yPositionC - yPosition;
+
         let distance = Math.sqrt((distX * distX) + (distY * distY));
 
         if(distance <= 100){
